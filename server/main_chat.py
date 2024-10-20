@@ -44,8 +44,11 @@ def summarize_context(context):
         context = completion.choices[0].message.content
     return context
 
-context_1 = summarize_context(extract_text_from_pdf("data/student_book.pdf"))
+context_1 = summarize_context(extract_text_from_pdf("data/student_book_cut.pdf"))
 context_2 = summarize_context(extract_text_from_pdf("data/code_of_conduct.pdf"))
+
+# print(context_1)
+# print(context_2)
 
 # context_1 = extract_text_from_pdf("data/student_book.pdf")
 # context_2 = extract_text_from_pdf("data/code_of_conduct.pdf")

@@ -21,7 +21,8 @@ Recent chat history:
 {chat_history}
 ______
 
-Considering your role as a supportive campus authority and the information provided, please give a calm and comprehensive answer (max 200 words) to the following student query:
+Considering your role as a supportive campus authority and the information provided, please give a calm and comprehensive answer 
+(max 200 words) to the following student query, do not fake information not in the context:
 {question}
 
 _______
